@@ -45,3 +45,4 @@ set(CMAKE_EXE_LINKER_FLAGS "--library=${LINKER_CMD_FILE}")
 
 add_subdirectory(01_blink_c)
 add_subdirectory(02_blink_cpp)
+add_subdirectory(evm430_uart_example)

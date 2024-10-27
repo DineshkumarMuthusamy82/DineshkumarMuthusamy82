@@ -13,5 +13,5 @@ cd build
 cmake ..
 
 # Run make to build the project
-make blink_c --debug VERBOSE=1
+make evm_uartA3 --debug VERBOSE=1
 
