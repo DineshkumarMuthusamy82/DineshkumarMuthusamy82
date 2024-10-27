@@ -11,4 +11,11 @@ cmake_minimum_required(VERSION 2.8)
 
 project(blink_c C)
 
+
+# Include directories
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include
+    /home/dinesh/ti/ccs1250/ccs/ccs_base/msp430/include
+    /home/dinesh/ti/ccs1250/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include
+)
 add_msp_executable(blink_c blink.c)
